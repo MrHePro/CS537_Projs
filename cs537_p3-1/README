@@ -1,0 +1,34 @@
+////////////////////////////////////////////////////////////////////////////////
+// Main File:        main.c
+// This File:        README
+// Other Files:      main.c, makefile, graph_builder.c, graph_builder.h,
+// 					 graph_node.c, graph_node.h, partner.txt, proc_creator.c, proc_creator.h
+//                   text_parser.c, text_parser.h
+// Semester:         CS 537 Fall 2018
+//
+// Author:           Zihao Song, Dong He
+// Email:            zsong67@wisc.edu, dhe28@wisc.edu
+// CS Login:         zsong, dongh
+//
+/////////////////////////// OTHER SOURCES OF HELP //////////////////////////////
+//                   fully acknowledge and credit all sources of help,
+//                   other than Instructors and TAs.
+//
+// Persons:          Identify persons by name, relationship to you, and email.
+//                   Describe in detail the the ideas and help they provided.
+//
+// Online sources:   avoid web searches to solve your problems, but if you do
+//                   search, be sure to include Web URLs and description of 
+//                   of any information you find.
+////////////////////////////////////////////////////////////////////////////////
+We have divided our work into 5 portions:
+1. text_parser: In this file, we parse the lines in the makefile and pass back 
+relavent target, dependency and command line informations back to main.c
+2. graph_builder.c: In this file, we build graph that represents the dependences
+ between build specifications, and traverse the graph in a bottom-up order to
+ evaluate the specifications.
+3. graph_node.c: In this file, we create node, store and print node information.
+4. proc_creator.c: In this file, we run each build command in a new process,
+ wait for its completion, and get the return code.
+5. main.c: In this file, we traverse through the graph nodes and return the 
+information we need based on what information we got from parser.

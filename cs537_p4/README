@@ -1,0 +1,42 @@
+ ////////////////////////////////////////////////////////////////////////////////
+// Main File:        N/A
+// This File:        README
+// Other Files:      makefile, 537malloc.c, 537malloc.h,
+// 					 range_tree.c, range_tree.h
+//                   
+// Semester:         CS 537 Fall 2018
+//
+// Author:           Zihao Song, Dong He
+// Email:            zsong67@wisc.edu, dhe28@wisc.edu
+// CS Login:         zsong, dongh
+//
+/////////////////////////// OTHER SOURCES OF HELP //////////////////////////////
+//                   fully acknowledge and credit all sources of help,
+//                   other than Instructors and TAs.
+//
+// Persons:          Identify persons by name, relationship to you, and email.
+//                   Describe in detail the the ideas and help they provided.
+//
+// Online sources:   avoid web searches to solve your problems, but if you do
+//                   search, be sure to include Web URLs and description of 
+//                   of any information you find.
+////////////////////////////////////////////////////////////////////////////////
+//
+/////////////////////////// OTHER SOURCES OF HELP //////////////////////////////
+//                   fully acknowledge and credit all sources of help,
+//                   other than Instructors and TAs.
+//
+// Persons:          Identify persons by name, relationship to you, and email.
+//                   Describe in detail the the ideas and help they provided.
+//
+// Online sources:   avoid web searches to solve your problems, but if you do
+//                   search, be sure to include Web URLs and description of 
+//                   of any information you find.
+////////////////////////////////////////////////////////////////////////////////
+We have divided our work into 2 portions:
+1. range_tree: In this file, we build a red black tree in which each node represents
+a range of memory addresses. Functions in this file can insert, remove and search for
+one or more nodes within a specified range of memory addresses.
+2. 537malloc: In this file, we build a library that specifiies all those function
+available such as malloc537(), free537(), realloc537(), and memcheck537(). The 
+program will print error and exit whenever an error is detected.
